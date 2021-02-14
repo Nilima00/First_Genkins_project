@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.Techfios</groupId>
-	<artifactId>JenkinProject</artifactId>
+	<artifactId>Jenkin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>JenkinProject</name>
+	<name>Database</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

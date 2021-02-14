@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class TestBase {
 
@@ -27,6 +28,8 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.get("https://techfios.com/billing/?ng=admin/");
 	}
+	
+	
 	
 	public void takeScreenshotAtEndOfTest(WebDriver driver) throws IOException {
 		  TakesScreenshot ts = ((TakesScreenshot) driver);
